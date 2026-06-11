@@ -1,4 +1,4 @@
-# 🎬 Philo Show Recommendation System
+# 🎬 Show Recommendation System
 
 A recommendation system for predicting which TV shows users will watch next, based on historical playback data.
 
@@ -23,7 +23,7 @@ A recommendation system for predicting which TV shows users will watch next, bas
 
 ```bash
 # Clone the repository
-cd philo-recommendation-system
+cd recommendation-system
 
 # Create virtual environment
 python3.9 -m venv venv
@@ -55,7 +55,7 @@ Precision@10: 2.10%
 ## 📁 Project Structure
 
 ```
-philo-recommendation-system/
+recommendation-system/
 ├── data/
 │   ├── playback_sessions.parquet       # Raw data (30 days, 100k users)
 │   ├── train_features.csv              # Engineered features
